@@ -125,11 +125,11 @@ export default class Game extends React.Component {
                     <button name = "Q1" onClick={(e)=> this.submitFunc(e, 8)} className = {this.displayFunc(8)}
                     ></button>
                 </div>
-            </div>
             <div>
                 {
                     this.state.button ? <button className="not-hidden" onClick={()=>this.refreshPage()}>Refresh Board!</button> : null
                 }
+            </div>
             </div>
           </>
         )
