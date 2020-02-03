@@ -1,0 +1,93 @@
+// @import '../src/assets/letter-o.png';
+// @import  '../src//assets/letter-x.jpg';
+
+* {
+    margin: 0px;
+    background-color: beige;
+}
+
+.default-class {
+    border: 3px grey solid;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    
+}
+
+.class-O {
+    background-image: url('../src/assets/letter-o.png');
+    background-position: center;
+    background-size: cover;
+    border: 3px grey solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.X-class {
+    background-image: url('../src//assets/letter-x.jpg');
+    background-position: center;
+    background-size: cover;
+    border: 3px grey solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.game {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.title {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.home-button {
+    border-radius: 10px;
+    background-color:skyblue;
+    color: black;
+    width: 200px;
+    height: 80px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.homepage {
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    object-fit: cover;
+    // width: 100%;
+    position: absolute;
+    top: 22%;
+    height: 500px;
+    left: 34%;
+    border-radius: 5px;
+}
+
+.not-hidden {
+    // display: block;
+    position: relative;
+    bottom: 200px;
+    left: 20%;
+    border-radius: 5px;
+    width: 80px;
+    height: 50px;
+    background-color: lightblue;
+}
+
+// .hidden {
+//     display: none;
+// }
+
